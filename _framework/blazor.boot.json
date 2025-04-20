@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Minigames",
   "resources": {
-    "hash": "sha256-Zup2erC9kna+qxRrex7vT7QYgus1aJ6LfzxP2Wse1fI=",
+    "hash": "sha256-+gL8ctPmU32nIHbdRu4FamBiE1kqSZbRPgK4uI+5cSk=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-ftpNqtARtVNE8ku5eB/jXoklb41UQ+EutUHfwmbNTBY="
     },
@@ -35,7 +35,7 @@
       "Microsoft.Extensions.Primitives.wasm": "sha256-xyqqv0SMCahnrOs+p5QYDHoh/BAYlbNtyjTTpqmRW/g=",
       "Microsoft.JSInterop.wasm": "sha256-Fu/MmkI1MxfDnNGDMkUwqvR2ktbNfMRhUrYZ0Tqd65Q=",
       "Microsoft.JSInterop.WebAssembly.wasm": "sha256-Tv5EkmGlvSfLMzOUcQMoh+dFCyx7bJsnc6031Mtr5fs=",
-      "Minigames.wasm": "sha256-2t3W3dTxR7oQk0PPeEZWU2mK/MPwnhUkYTPN2yu445Y=",
+      "Minigames.wasm": "sha256-tyjwDbyMgbuHtKpBZDVceHIAPUdqF5rN/5g0VYcyfzo=",
       "MudBlazor.wasm": "sha256-URD5DSW+8ozDDd8W0InCVcSknLtoJSY2CtKwiWwvwLs=",
       "System.Collections.Concurrent.wasm": "sha256-KH0WklBUe64fI61T31kFU1oQmOUpcDnRIyaBRg2rg7A=",
       "System.Collections.Immutable.wasm": "sha256-ZD/nuxAhvEbgqWxkALwz0Lb679NH690hx7UFvn8udwI=",
