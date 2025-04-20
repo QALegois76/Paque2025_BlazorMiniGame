@@ -101,3 +101,101 @@ a, .btn-link {
 code {
     color: #c02d76;
 }
+
+
+.grid {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.color-tile {
+    width: 100px;
+    height: 100px;
+    border-radius: 12px;
+    box-shadow: 0 0 5px #aaa;
+    cursor: pointer;
+    transition: 0.2s;
+    opacity: 0.6;
+}
+
+    .color-tile.active {
+        opacity: 1;
+        transform: scale(1.1);
+        box-shadow: 0 0 10px white;
+    }
+
+    .color-tile.red {
+        background-color: red;
+    }
+
+    .color-tile.green {
+        background-color: green;
+    }
+
+    .color-tile.blue {
+        background-color: blue;
+    }
+
+    .color-tile.yellow {
+        background-color: yellow;
+    }
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.simon-button {
+    transition: transform 0.2s ease, opacity 0.2s ease;
+    opacity: 0.7;
+    height: 100px;
+    width: 100px;
+}
+
+.simon-button-activ {
+    transition: transform 0.2s ease, opacity 0.2s ease;
+    opacity: 1;
+    height: 100px;
+    width: 100px;
+    border: solid 2px black;
+    transform: scale(1.05);
+}
+
+.simon-button:hover {
+    border: solid 1px black;
+    transform: scale(1.05);
+    opacity: 1;
+    cursor: pointer;
+}
+
+.simon-button:active {
+    border: solid 5px black;
+    transform: scale(1);
+    opacity: 1 !important;
+    cursor: pointer;
+}
+
+MudGrid
+{
+    padding : 10px;
+    margin-top : 20px
+}
+
+
+#paperSimon {
+    max-width: 400px;
+    -webkit-justify-content: center;
+    justify-content: center;
+    margin-left : auto;
+    margin-right :auto;
+    text-align : center;
+    align-items:center;
+}
