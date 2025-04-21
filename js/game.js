@@ -9,7 +9,7 @@ let pipeWidth = 50;
 let pourcentFence = 0.75;
 let fenceSize = 200;
 
-let code = "123";
+let code = "467";
 
 
 let pipes = [];
